@@ -20,14 +20,5 @@ os.environ['PROJ_LIB']
 folder_output  
 
 <img src="images/download_events_1.png" width="500">
+`<Store the info of the events in an excel file with get_events.py>`
 
-*Store the info of the events in an excel file with get_events.py*
-
-
-<img src="http://sparkandshine.net/wordpress/wp-content/uploads/2016/02/dominating_sets_example2.png" alt="dominating_sets_example2"/>
-*Fig. 2: The minimum dominating set of a graph*
-
-
-
-I think you should use an
-`<addr>` element here instead.
