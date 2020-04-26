@@ -37,8 +37,8 @@ Read the excel file 'events.xlsx' and download records
 Define the requested event as the number of the row in the excel file 'events.xlsx'  
 
 To run the code please update the following folder paths according to your system:  
-folder_excel  
-folder_main  
+**folder_excel**  
+**folder_main**  
 
 <img src="https://github.com/dimitrisdais/obspy_tutorial/blob/master/images/download_events_1.png" width="500">
 
