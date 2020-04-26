@@ -24,3 +24,14 @@ folder_output
 *Store the info of the events in an excel file with get_events.py*
 
 
+.. |fig1| <img src="images/download_events_1.png" width="500">
+
+
+============= 
+fig1          
+============= 
+|fig1|  
+============= 
+
+
+
