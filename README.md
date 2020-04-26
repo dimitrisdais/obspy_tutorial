@@ -28,3 +28,6 @@ folder_output
 *Fig. 2: The minimum dominating set of a graph*
 
 
+
+I think you should use an
+`<addr>` element here instead.
