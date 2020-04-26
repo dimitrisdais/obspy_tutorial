@@ -10,6 +10,10 @@ To run the code please update the following folder paths according to your syste
 folder_excel
 folder_main
 
+Author: Dimitris Dais
+LinkedIn: https://www.linkedin.com/in/dimitris-dais/  
+Email: d.dais@pl.hanze.nl  
+
 """
 
 #%%
