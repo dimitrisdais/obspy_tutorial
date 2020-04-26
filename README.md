@@ -28,9 +28,9 @@ folder_output
 
 
 ============= 
-fig1          
+figgg          
 ============= 
-|fig1|  
+|<img src="images/download_events_1.png" width="500">|  
 ============= 
 
 
