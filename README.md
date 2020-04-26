@@ -10,6 +10,8 @@ Research Group Page: https://www.linkedin.com/company/earthquake-resistant-struc
 
 A YouTube video-tutorial can be found in the following link: https://youtu.be/E9k-A8daess  
 
+If you use the code, please refer to the GitHub repository.
+
 # get_events.py  
 Code to get earthquake events from 2010-01-01 until 2020-04-25 from the Netherlands  
 It will store the info of the events in an excel file  
