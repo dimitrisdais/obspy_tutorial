@@ -24,5 +24,11 @@ folder_output
 *Store the info of the events in an excel file with get_events.py*
 
 
-{{< img src="images/download_events_1.png" width="500" caption="this asterisk * shows up fine _ this underscore too, but **bold** and _italics_ still work fine" >}}
+<span class="img_container center" style="display: block;">
+    <img alt="test" src="images/download_events_1.png" style="display:block; margin-left: auto; margin-right: auto;" title="caption" />
+    <span class="img_caption" style="display: block; text-align: center;">caption</span>
+</span>
+
+
+
 
