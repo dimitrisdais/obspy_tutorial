@@ -20,13 +20,6 @@ os.environ['PROJ_LIB']
 folder_output  
 
 <img src="images/download_events_1.png" width="500">
-*image_caption*
-
-|:--:| 
-| *Space* |
-
-
-
-*The caption for my image*
+*Store the info of the events in an excel file with get_events.py*
 
 
