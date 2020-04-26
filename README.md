@@ -25,7 +25,7 @@ To run the code please update the following folder paths according to your syste
 # Store the info of the events in an excel file with get_events.py
 ```
 
-<img src="https://github.com/dimitrisdais/obspy_tutorial/blob/master/images/get_events_2.png" width="500">
+<img src="https://github.com/dimitrisdais/obspy_tutorial/blob/master/images/get_events_2.png" width="500" height="500">
 
 ```diff
 # Plot the events on the map with get_events.py
