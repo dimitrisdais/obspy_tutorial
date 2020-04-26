@@ -1,6 +1,20 @@
 """
 
+Read the excel file 'events.xlsx'
+Define the requested event as the number of the row in the excel file 'events.xlsx'
+Define the name of the requested station to be processed
+For each channel of the requsted station remove the instrumental response and filter the data
+Plot the processed data
+
+To run the code please update the following folder paths according to your system:
+folder_excel
+folder_main
+
 """
+
+#%%
+#
+#
 
 import datetime
 import os
@@ -26,6 +40,13 @@ df = pd.read_excel(excel_file, sheet_name = excel_tab)
 # requested event
 ii= 7
 
+# requested station
+station = 'BGAR'
+
+#%%
+#
+#
+
 # convert time from string to datetime
 time_format = '%Y-%m-%dT%H:%M:%S.%f%z'
 eq_time = datetime.datetime.strptime(df['Origin Time (UTC)'][ii], time_format)
@@ -46,10 +67,9 @@ if not os.path.exists(folder_plots):
 # convert time to obspy.core.utcdatetime.UTCDateTime                
 origin_time = obspy.UTCDateTime(eq_time) 
 
-# requested station
-station = 'BGAR'
-
+# retrieve the downloaded mseed files in the folder_output
 mseed_files = [f for f in os.listdir(folder_output) if f.endswith('.mseed')]
+# retrieve the downloaded xml files in the folder_output
 xml_files = [f for f in os.listdir(folder_output) if f.endswith('.xml')]
 
 # retrieve the mseed files from the requested station
@@ -63,7 +83,7 @@ for xml_file in xml_files:
     if station in xml_file:
         inv_file = xml_file
 
-# for each channel of the requsted channel remove the instrumental response and filter the data    
+# for each channel of the requsted station remove the instrumental response and filter the data    
 for record in records:
     st = read(folder_output + record)
     tr = st[0]
