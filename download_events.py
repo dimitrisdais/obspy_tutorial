@@ -1,9 +1,18 @@
 """
 
-read excel file 'knmi - strong records.xlsx' and download records
+Read the excel file 'events.xlsx' and download records
+Define the requested event as the number of the row in the excel file 'events.xlsx'
+
+To run the code please update the following folder paths according to your system:
+folder_excel
+folder_main
 
 """
-  
+
+#%%
+#
+#
+
 import datetime
 import os
 import pandas as pd
@@ -24,6 +33,10 @@ excel_file = folder_excel + excel_filename
 
 df = pd.read_excel(excel_file, sheet_name = excel_tab)
 
+#%%
+# define the requested data
+#
+
 # requested event
 ii= 7
    
@@ -43,6 +56,10 @@ providers = "http://rdsa.knmi.nl"
 
 # requested channels
 channel_priorities =  ["HG[ZNE12]"]
+
+#%%
+# download data
+#
 
 # convert time from string to datetime
 time_format = '%Y-%m-%dT%H:%M:%S.%f%z'
@@ -97,7 +114,4 @@ mdl = MassDownloader(providers=[providers])
 # The data will be downloaded to the ``./waveforms/`` and ``./stations/`` # folders with automatically chosen file names.
 mdl.download(domain, restrictions, mseed_storage = folder_output,
              stationxml_storage = folder_output)
-
-
-
 
