@@ -24,11 +24,7 @@ folder_output
 *Store the info of the events in an excel file with get_events.py*
 
 
-<span class="img_container center" style="display: block;">
-    <img alt="test" src="images/download_events_1.png" style="display:block; margin-left: auto; margin-right: auto;" title="caption" />
-    <span class="img_caption" style="display: block; text-align: center;">caption</span>
-</span>
-
-
+<img src="http://sparkandshine.net/wordpress/wp-content/uploads/2016/02/dominating_sets_example2.png" alt="dominating_sets_example2"/>
+*Fig. 2: The minimum dominating set of a graph*
 
 
