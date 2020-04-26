@@ -8,6 +8,10 @@ To run the code please update the following folder paths according to your syste
 os.environ['PROJ_LIB']
 folder_output
 
+Author: Dimitris Dais
+LinkedIn: https://www.linkedin.com/in/dimitris-dais/  
+Email: d.dais@pl.hanze.nl  
+
 """
 
 #%%
