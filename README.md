@@ -46,5 +46,27 @@ To run the code please update the following folder paths according to your syste
 # The mseed and xml files as downloaded from the download_events.py
 ```
 
+# process_data.py
 
+Read the excel file 'events.xlsx'  
+Define the requested event as the number of the row in the excel file 'events.xlsx'  
+Define the name of the requested station to be processed  
+For each channel of the requsted station remove the instrumental response and filter the data  
+Plot the processed data  
+
+To run the code please update the following folder paths according to your system:  
+**folder_excel**  
+**folder_main**  
+
+<img src="https://github.com/dimitrisdais/obspy_tutorial/blob/master/images/process_data_1.png" width="500">
+
+```diff
+# The plot prepared for the removal of the instrumental response from the process_data.py
+```
+
+<img src="https://github.com/dimitrisdais/obspy_tutorial/blob/master/images/process_data_2.png" width="500" height="500">
+
+```diff
+# The plot prepared with the raw and the filtered data from the process_data.py
+```
 
