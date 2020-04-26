@@ -31,3 +31,7 @@ folder_output
   <figcaption>This is my caption text.</figcaption>
 </figure>
 
+{:.image-caption}
+*The caption for my image*
+
+
