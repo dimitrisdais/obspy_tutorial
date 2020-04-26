@@ -11,6 +11,15 @@ Research Group Page: https://www.linkedin.com/company/earthquake-resistant-struc
 
 Add link to YouTube video
 
+**get_events.py**
+Code to get earthquake events from 2010-01-01 until 2020-04-25 from the Netherlands
+It will store the info of the events in an excel file
+It will plot the events on the map
+To run the code please update the following folder paths according to your system:
+os.environ['PROJ_LIB']
+folder_output
+
+
 <img src="images/download_events_1.png" width="500">
 
 
