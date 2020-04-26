@@ -1,4 +1,5 @@
 """
+
 Code to get earthquake events from 2010-01-01 until 2020-04-25 from the Netherlands
 It will store the info of the events in an excel file
 It will plot the events on the map
@@ -14,7 +15,6 @@ folder_output
 #
 
 import os
-
 import obspy.clients.fdsn
 import numpy as np
 import pandas as pd
