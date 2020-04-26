@@ -26,3 +26,5 @@ folder_output
 ```
 
 <font color="red">This is some text!</font>
+
+<font color="red">This is some text!</font>
