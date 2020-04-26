@@ -25,4 +25,4 @@ folder_output
 # Store the info of the events in an excel file with get_events.py
 ```
 
-
+<font color="red">This is some text!</font>
