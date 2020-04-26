@@ -22,3 +22,7 @@ folder_output
 <img src="images/download_events_1.png" width="500">
 
 *Store the info of the events in an excel file with get_events.py*
+
+
+<span style="color:blue">some *This is Blue italic.* text</span>
+
