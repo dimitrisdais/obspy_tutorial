@@ -33,7 +33,7 @@ To run the code please update the following folder paths according to your syste
 
 # download_events.py  
 
-<img src="https://github.com/dimitrisdais/obspy_tutorial/blob/master/images/download_events_1.png.png" width="500">
+<img src="https://github.com/dimitrisdais/obspy_tutorial/blob/master/images/download_events_1.png" width="500">
 
 ```diff
 # The mseed and xml files as downloaded from the download_events.py
