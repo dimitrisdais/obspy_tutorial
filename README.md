@@ -32,3 +32,26 @@ figgg
 
 
 
+============= ==============
+Unet          Linknet
+============= ==============
+|unet_image|  |linknet_image|
+============= ==============
+
+============= ==============
+PSPNet        FPN
+============= ==============
+|psp_image|   |fpn_image|
+============= ==============
+
+.. _Unet: https://github.com/qubvel/segmentation_models/blob/readme/LICENSE
+.. _Linknet: https://arxiv.org/abs/1707.03718
+.. _PSPNet: https://arxiv.org/abs/1612.01105
+.. _FPN: http://presentations.cocodataset.org/COCO17-Stuff-FAIR.pdf
+
+.. |unet_image| image:: https://github.com/qubvel/segmentation_models/blob/master/images/unet.png
+.. |linknet_image| image:: https://github.com/qubvel/segmentation_models/blob/master/images/linknet.png
+.. |psp_image| image:: https://github.com/qubvel/segmentation_models/blob/master/images/pspnet.png
+.. |fpn_image| image:: https://github.com/qubvel/segmentation_models/blob/master/images/fpn.png
+
+
