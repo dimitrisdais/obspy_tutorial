@@ -25,6 +25,6 @@ folder_output
 # Store the info of the events in an excel file with get_events.py
 ```
 
+<p style='color:red'>This is some red text.</p>
 <font color="red">This is some text!</font>
-
-<font color="red">This is some text!</font>
+These are <b style='color:red'>red words</b>.
