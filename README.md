@@ -26,12 +26,7 @@ folder_output
 | *Space* |
 
 
-<figure>
-  <img src="images/download_events_1.png" width="500">
-  <figcaption>This is my caption text.</figcaption>
-</figure>
 
-{:.image-caption}
 *The caption for my image*
 
 
