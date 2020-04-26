@@ -19,5 +19,6 @@ To run the code please update the following folder paths according to your syste
 os.environ['PROJ_LIB']  
 folder_output  
 
-<img src="images/download_events_1.png" width="500">  
+<img src="images/download_events_1.png" width="500">
+
 *Store the info of the events in an excel file with get_events.py*
