@@ -16,8 +16,8 @@ It will store the info of the events in an excel file
 It will plot the events on the map
 
 To run the code please update the following folder paths according to your system:  
-os.environ['PROJ_LIB']  
-folder_output  
+**os.environ['PROJ_LIB']**  
+**folder_output**  
 
 <img src="images/download_events_1.png" width="500">
 
@@ -25,6 +25,3 @@ folder_output
 # Store the info of the events in an excel file with get_events.py
 ```
 
-<p style='color:red'>This is some red text.</p>
-<font color="red">This is some text!</font>
-These are <b style='color:red'>red words</b>.
