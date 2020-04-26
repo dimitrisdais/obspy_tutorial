@@ -11,6 +11,6 @@ Research Group Page: https://www.linkedin.com/company/earthquake-resistant-struc
 
 Add link to YouTube video
 
-![](/images/download_events_1.png=100x100)
+![](/images/download_events_1.png)
 
 
