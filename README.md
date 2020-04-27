@@ -14,10 +14,10 @@ If you use the code, please refer to the GitHub repository.
 
 This code was used to download and process seismic records for the following publications:
 
-"Differences" between Induced and Natural Seismic Events  
+**"Differences" between Induced and Natural Seismic Events**  
 https://www.researchgate.net/publication/326033414_Differences_between_Induced_and_Natural_Seismic_Events
 
-Comparison of polarity in Groningen data with that of other natural and induced seismicity records, and implications in hazard and risk models  
+**Comparison of polarity in Groningen data with that of other natural and induced seismicity records, and implications in hazard and risk models**  
 https://www.researchgate.net/publication/328974370_Comparison_of_polarity_in_Groningen_data_with_that_of_other_natural_and_induced_seismicity_records_and_implications_in_hazard_and_risk_models 
 
 # get_events.py  
